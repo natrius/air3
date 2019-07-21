@@ -1,0 +1,155 @@
+﻿/* FluxBB Includes
+-------------------------------------------*/
+
+.pun .include{
+	display:block;
+	margin-bottom:20px;
+	clear:both;
+	float:left;
+	width: 100%; 
+	line-height: 150%; 
+	color: #aaa;
+}
+
+.pun .include h4 {
+	display:block;
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 10px;
+	margin-bottom:15px;
+	color: #666;
+	text-transform: uppercase;
+}
+
+.pun .include a:link,.pun .include a:visited,.pun .include a:active {
+	color:#44699C
+}
+
+.pun .announcement-icon {
+	display:block;
+	float:left;
+	margin: 0 10px 5px 0px
+}
+
+.pun .include label {
+	margin:0px
+}
+
+.pun .include input, .pun .include select {
+	width: 98%;
+	margin-bottom:5px;
+}
+
+.pun .include .submitBtn {
+	width: auto;
+}
+
+.pun .include iframe, .pun .include object, .pun .include embed {width: 100%}
+
+.pun .include ul li {padding: 5px 0px; border-bottom: 1px dotted #ccc;}
+
+/* Search Box */
+#punsearch #vf h2 span {display:none}
+
+/* Login/User include */
+#loggedin img, #logininclude img {
+	float:left;
+	width:60px;
+	height: 60px;
+	margin-right:10px;
+	border: 1px solid #ddd
+}
+
+	/* Lets hide the avatar image on the login form if the screen is less than 980. This makes more room for input boxes. */
+	@media only screen and (max-width: 980px) {
+		#loggedin .buttons a {
+			display:block;
+			margin-left: 0px;
+			}
+
+		#loggedin img, #logininclude img {
+			display:none
+		}	
+	}
+
+#logoutbutton { display:block; }
+
+/* Avatar Grid Layout (Whos Online / Top Posters) */
+.pun .include .avatargrid {
+	clear:both;
+	padding:0;
+	margin:0;
+}
+
+.pun .include .avatargrid li {
+	float: left;
+	display:block;
+	margin: 0 10px 5px 0;
+	border:0;
+	padding:0;
+}
+
+.pun .include .avatargrid img {
+	width:60px;
+	height: 60px;
+	border: 1px solid #666;
+}
+
+@media only screen and (max-width: 980px) {
+
+	.pun .include .avatargrid li {
+		float: left;
+		display:block;
+		margin: 0 5px 0px 0;
+	}
+
+	.pun .include .avatargrid img {
+		width:50px;
+		height: 50px;
+		border: 1px solid #666;
+	}
+}
+
+/* Avatar List Layout (Whos Online / Top Posters) */
+.pun .include .avatarlist {
+	clear:both;
+	padding:0;
+	margin:0;
+}
+
+.pun .include .avatarlist li {
+	float: left;
+	clear: both;
+	width: 100%;
+	display:block;
+	margin: 0 5px 5px 0;
+	overflow:hidden;
+	border:0;
+	padding:0;
+}
+
+.pun .include .avatarlist a:link, .pun .include .avatarlist a:visited { overflow:hidden; }
+
+.pun .include .avatarlist img {
+	width:60px;
+	height: 60px;
+	border: 1px solid #666;
+	float:left;
+	margin-right: 10px;
+}
+
+@media only screen and (max-width: 980px) {
+
+	.pun .include .avatarlist li {
+		float: left;
+		display:block;
+	}
+
+	.pun .include .avatarlist img {
+		width:50px;
+		height: 50px;
+		border: 1px solid #666;
+	}
+	
+	.pun .include .avatarlist .incusertitle {display:none}
+	
+}
