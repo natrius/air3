@@ -1705,7 +1705,7 @@ html, body, .pun {
 
 img { max-width: 100%; }
 
-.wrapper { width: 100%;	max-width: 2000px; margin: 0 auto; }
+.wrapper { width: 100%;	max-width: 1200px; margin: 0 auto; }
 
 /* .primary, aside, footer { float: left; padding: 1.5em 4%; -webkit-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out; -o-transition: all 0.4s ease-out; -ms-transition: all 0.4s ease-out; transition: all 0.4s ease-out; } */
 
@@ -1901,44 +1901,41 @@ header {
 	.pun .tc2,	/* Views column */
 	.pun .tc3 	/* Replies column */
 	{
-		display:none
+		display: none;
 	}
 
-	.pun .tcl { width:auto; }	/* When hiding the views/replies columns we need to resize the last post column */
+	.pun .tcl {width:auto;}	/* When hiding the views/replies columns we need to resize the last post column */
 
 	/* 4. When viewing topics we create additional space by increasing the size of the postright column (users posts content) to 100% */
 		
-	.pun .blockpost .postleft {width: 100%; float:left; display:block;margin-left:0px}
-	.pun .blockpost .postleft dd, .pun .blockpost .postleft .postavatar {display:none}
+	.pun .blockpost .postleft {width: 100%; float:left; display:block;margin-left:0px;}
+	.pun .blockpost .postleft dd, .pun .blockpost .postleft .postavatar {display:none;}
 
-	.pun .blockpost .postright {margin-left:0;width: 100%; float:left; display:block; padding: 0 10px 0}
-	.pun .blockpost .postfootright {padding: 7px 10px}
+	.pun .blockpost .postright {margin-left:0;width: 100%; float:left; display:block; padding: 0 10px 0;}
+	.pun .blockpost .postfootright {padding: 7px 10px;}
 	.pun .blockpost .postbody, .pun .blockpost .postfoot {margin-right:0px;float:left;}
 
-	.pun .blockpost h2 { padding-left:140px;}
-	.pun .blockpost h2 .conr {float:left; padding-right:4px}
+	.pun .blockpost h2 {float: right; padding-right:4px;}
+	.pun .blockpost h2 a {margin-right: 30px;/}
+	.pun .blockpost h2 .conr {padding-right:4px;}
 		
-	.pun .blockpost .postbody, .pun .blockpost .postfoot {border-color: #FCFDFE}
+	.pun .blockpost .postbody, .pun .blockpost .postfoot {border-color: #FCFDFE;}
 	
-	/* Lets hide all signatures too whilst were here */
-	.pun .postmsg .postsignature {display:none}
+	/* Lets hide all signatures */
+	.pun .postmsg .postsignature {display: none;}
 
-	/* ...And limit quoting to 1 quote deep */
+	/* Limit quoting to 1 quote deep */
 	.pun .postmsg  .quotebox .quotebox .quotebox .quotebox .quotebox, 
 	.pun .postmsg  .quotebox .quotebox .quotebox .quotebox, 
 	.pun .postmsg  .quotebox .quotebox .quotebox, 
-	.pun .postmsg .quotebox .quotebox {display:none}
+	.pun .postmsg .quotebox .quotebox {display: none;}
 	
 	/* All form inputs */
 	.blockform .buttons input, .blockform .rbox input {width: auto;}
-	.blockform select, .blockform textarea {width: 100%}
-	.blockform input {margin: 4px;}
+	.blockform input, .blockform select, .blockform textarea {width: 100%}
 
 	/* View Profile */
 	#viewprofile dt, #adstats dt {width: 8em;}
 	#viewprofile dd, #adstats dd { padding-left: 8em;}
-
-	.infldset div {float: none !important;}
-	.infldset div img {margin: 4px;}
 	
 	}
