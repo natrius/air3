@@ -1526,6 +1526,10 @@ html, body, .pun {
 	color: #3399CC;
 }
 
+.pun .blocktable td.tcl span.stickytext:before {
+	content:'▼';
+}
+
 /* Main Posts
 ----------------------------------------------------------------*/
 
