@@ -1902,7 +1902,7 @@ header {
 	#brdwelcome .conr { float:left; }
 	
 	/* 3. When viewing Index, View Forum, Search Results (topics) we hide the columns showing number of replies/views */
-	.pun .tc2,	/* Views column */
+	/*.pun .tc2,*/	/* Views column */
 	.pun .tc3 	/* Replies column */
 	{
 		display: none;
