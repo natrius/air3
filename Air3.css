@@ -1936,10 +1936,14 @@ header {
 	
 	/* All form inputs */
 	.blockform .buttons input, .blockform .rbox input {width: auto;}
-	.blockform input, .blockform select, .blockform textarea {width: 100%}
+	.blockform select, .blockform textarea {width: 100%}
+	.blockform input {margin: 4px;}
 
 	/* View Profile */
 	#viewprofile dt, #adstats dt {width: 8em;}
 	#viewprofile dd, #adstats dd { padding-left: 8em;}
+	
+	.infldset div {float: none !important;}
+	.infldset div img {margin: 4px;}
 	
 	}
