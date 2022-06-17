@@ -31,6 +31,8 @@
 
 			<pun_status>
 
+			<pun_announcement>
+
 			<pun_main>
 
 			<pun_footer>
