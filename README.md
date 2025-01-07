@@ -1,3 +1,5 @@
+**ARCHIVED** FluxBB is dead and not maintained and the forum i made this for switched to discourse, so i do not maintain this repository anymore.
+
 # Air3
 
 Air3 is a responsive FluxBB skin based on Air and Victory which looks great on all screen sizes - from widescreen desktops to tablets and smartphones. It is kept as close as possible to the default Air.
